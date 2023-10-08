@@ -1,4 +1,4 @@
-# README of the Special To-Do-List
+# README of the Froggy To-Do List
 
 ## Contents
 1. Reason for this Project
@@ -22,13 +22,22 @@ This to-do list should have following main functions:
 1. Adding to-dos (together with a date)
 2. Adding a most important to-do ("the frog") with a date so the app knows "the frog" for each day (→ dupe dates should be checked )
 3. On clicking "done" at the frog, there must be a warning to the user to be aware that this can't be made undone.
+4. Every other to-do has to by blanked until the frog is marked done
 
 More advanced functions: 
 
-1. After dupe-date-check: Which frog should be held for the given date and which should be moved to another date? OR \
+*  After dupe-date-check: Which frog should be held for the given date and which should be moved to another date? OR \
 Which frog should be turned to a normal task?\
  → or both?
-2. Show the sum of estimated time (given by the user) of all tasks
+*  Show the sum of estimated time (given by the user) of all tasks
+* description for to-dos (later in MarkDown)
+
+Very advanced function:
+
+*  Possibility to start a task and measure the time needed in order to compare the measured time against the time given by the user in a type of review-session e.  g. at the end of the day
+*  Dealing with undone to-dos: \
+→ Warning at the and of the day / at a set up time? \
+→ Postpone undone to-dos to the next day?
 
 ## 3. In-deep functionality
 
