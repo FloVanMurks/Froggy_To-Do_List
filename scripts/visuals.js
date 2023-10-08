@@ -3,11 +3,11 @@ function toggle_nav_bar_visibility() {
     let nb_toggler = document.getElementById("toggler_nav_bar_visibility");
 
     if (nbl.style.display === "none") {
-        nb_toggler.innerHTML = "Show Nav Bar";
+        nb_toggler.innerHTML = "Hide Nav Bar";
         nbl.style.display = "block";
     }
     else {
-        nb_toggler.innerHTML = "Hide Nav Bar";
+        nb_toggler.innerHTML = "Show Nav Bar";
         nbl.style.display = "none";
     }
 }
